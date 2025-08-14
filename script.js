@@ -43,6 +43,50 @@ const questions = [
             { text: 'Mojave', correct: false },
             { text: 'Atacama', correct: false },
         ]
+    },
+    {
+        question: "What is the world's largest waterfall, by volume of water?",
+        answers: [
+            { text: "Victoria Falls", correct: true },
+            { text: "Iguazu Falls", correct: false },
+            { text: "Niagara Falls", correct: false },
+            { text: "Angel Falls", correct: false },
+        ]
+    },
+    {
+        question: "What is the world's largest living structure, according to the Guinness World Records?",
+        answers: [
+            { text: "Amazon Rainforest", correct: false },
+            { text: "Great Barrier Reef", correct: true },
+            { text: "Grand Canyon", correct: false },
+            { text: "Great Blue Hole", correct: false },
+        ]
+    },
+    {
+        question: "What is the world's largest snowflake?",
+        answers: [
+            { text: "10 inches", correct: false },
+            { text: "20 inches", correct: false },
+            { text: "25 inches", correct: false },
+            { text: "15 inches", correct: true },
+        ]
+    },{
+        question: "Who was the first President of the United States?",
+        answers: [
+            { text: "George Washington", correct: true },
+            { text: "Thomas Jefferson", correct: false },
+            { text: "Abraham Lincoln", correct: false },
+            { text: "Benjamin Franklin", correct: false },
+        ]
+    },
+    {
+        question: "What is the world's largest island?",
+        answers: [
+            { text: "New Guinea", correct: false },
+            { text: "Borneo", correct: false },
+            { text: "Madagascar", correct: false },
+            { text: "Greenland", correct: true },
+        ]
     }
 ];
 
