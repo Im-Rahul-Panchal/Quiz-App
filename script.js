@@ -128,7 +128,6 @@ function showQuestions(){
 
 function selectAnswer(e){
     const selectedBtn = e.target;
-    // console.log(selectedBtn)
     const isCorrect = selectedBtn.dataset.correct === 'true'
     if(isCorrect){
         selectedBtn.classList.add('correct')
@@ -138,8 +137,8 @@ function selectAnswer(e){
         selectedBtn.classList.add('incorrect')
     }
 
-    const newAnswer = Array.from(answerButtons.children)
-    newAnswer.forEach(function(button){
+    // to show correct answer when wrong is selected
+    Array.from(answerButtons.children).forEach(function(button){
         if(button.dataset.correct === 'true'){
             button.classList.add('correct')
         }
